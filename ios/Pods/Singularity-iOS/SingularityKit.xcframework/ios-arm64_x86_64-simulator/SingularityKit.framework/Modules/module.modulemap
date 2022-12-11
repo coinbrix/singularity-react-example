@@ -1,0 +1,4 @@
+framework module SingularityKit {
+  header "SingularityKit-Swift.h"
+  requires objc
+}

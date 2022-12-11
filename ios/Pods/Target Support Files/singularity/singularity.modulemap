@@ -1,0 +1,6 @@
+module singularity {
+  umbrella header "singularity-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "singularity",
+  "version": "1.0.0",
+  "summary": "React wrapper for Singularity",
+  "homepage": "https://github.com/",
+  "license": "MIT",
+  "authors": {
+    "name": "Neobrix",
+    "email": "91garg.shubham@gmail.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com",
+    "tag": "1.0.0"
+  },
+  "source_files": "ios/**/*.{h,m,mm,swift}",
+  "resource_bundles": {
+    "Resource": [
+      "ios/*.{plist}"
+    ]
+  },
+  "dependencies": {
+    "React-Core": [
+
+    ],
+    "Singularity-iOS": [
+
+    ]
+  }
+}

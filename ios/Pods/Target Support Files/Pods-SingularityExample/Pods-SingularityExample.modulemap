@@ -1,0 +1,6 @@
+module Pods_SingularityExample {
+  umbrella header "Pods-SingularityExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,916 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SingularityKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SingularityKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SingularitySDKInitializer",
+        "printedName": "SingularitySDKInitializer",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "startLogin",
+            "printedName": "startLogin(on:with:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SingularityListener",
+                "printedName": "SingularityKit.SingularityListener",
+                "usr": "s:14SingularityKit0A8ListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SingularityKit0A14SDKInitializerC10startLogin2on4with8listenerySo16UIViewControllerC_SDySSypGAA0A8Listener_ptFZ",
+            "mangledName": "$s14SingularityKit0A14SDKInitializerC10startLogin2on4with8listenerySo16UIViewControllerC_SDySSypGAA0A8Listener_ptFZ",
+            "moduleName": "SingularityKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startLogin",
+            "printedName": "startLogin(on:with:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SingularityKit.SingularityParams?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SingularityParams",
+                    "printedName": "SingularityKit.SingularityParams",
+                    "usr": "s:14SingularityKit0A6ParamsC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SingularityListener",
+                "printedName": "SingularityKit.SingularityListener",
+                "usr": "s:14SingularityKit0A8ListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SingularityKit0A14SDKInitializerC10startLogin2on4with8listenerySo16UIViewControllerC_AA0A6ParamsCSgAA0A8Listener_ptFZ",
+            "mangledName": "$s14SingularityKit0A14SDKInitializerC10startLogin2on4with8listenerySo16UIViewControllerC_AA0A6ParamsCSgAA0A8Listener_ptFZ",
+            "moduleName": "SingularityKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14SingularityKit0A14SDKInitializerC",
+        "mangledName": "$s14SingularityKit0A14SDKInitializerC",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "SingularityKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SingularityListener",
+        "printedName": "SingularityListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onGetSingularityUserInfo",
+            "printedName": "onGetSingularityUserInfo(user:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SingularityKit0A8ListenerP05onGetA8UserInfo4userySDySSypG_tF",
+            "mangledName": "$s14SingularityKit0A8ListenerP05onGetA8UserInfo4userySDySSypG_tF",
+            "moduleName": "SingularityKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : SingularityKit.SingularityListener>",
+            "sugared_genericSig": "<Self where Self : SingularityKit.SingularityListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSingularityClose",
+            "printedName": "onSingularityClose()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SingularityKit0A8ListenerP02onA5CloseyyF",
+            "mangledName": "$s14SingularityKit0A8ListenerP02onA5CloseyyF",
+            "moduleName": "SingularityKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : SingularityKit.SingularityListener>",
+            "sugared_genericSig": "<Self where Self : SingularityKit.SingularityListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSingularityLogout",
+            "printedName": "onSingularityLogout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SingularityKit0A8ListenerP02onA6LogoutyyF",
+            "mangledName": "$s14SingularityKit0A8ListenerP02onA6LogoutyyF",
+            "moduleName": "SingularityKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : SingularityKit.SingularityListener>",
+            "sugared_genericSig": "<Self where Self : SingularityKit.SingularityListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSingularityError",
+            "printedName": "onSingularityError(message:code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SingularityKit0A8ListenerP02onA5Error7message4codeySS_SitF",
+            "mangledName": "$s14SingularityKit0A8ListenerP02onA5Error7message4codeySS_SitF",
+            "moduleName": "SingularityKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : SingularityKit.SingularityListener>",
+            "sugared_genericSig": "<Self where Self : SingularityKit.SingularityListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14SingularityKit0A8ListenerP",
+        "mangledName": "$s14SingularityKit0A8ListenerP",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "SingularityKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SingularityKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SingularityKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SingularityParams",
+        "printedName": "SingularityParams",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(merchantId:environment:merchantName:merchantLogo:primaryColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SingularityParams",
+                "printedName": "SingularityKit.SingularityParams",
+                "usr": "s:14SingularityKit0A6ParamsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SingularityEnvironMent",
+                "printedName": "SingularityKit.SingularityEnvironMent",
+                "usr": "s:14SingularityKit0A11EnvironMentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14SingularityKit0A6ParamsC10merchantId11environment0D4Name0D4Logo12primaryColorACSS_AA0A11EnvironMentOSSSgSo7UIImageCSgSo7UIColorCSgtcfc",
+            "mangledName": "$s14SingularityKit0A6ParamsC10merchantId11environment0D4Name0D4Logo12primaryColorACSS_AA0A11EnvironMentOSSSgSo7UIImageCSgSo7UIColorCSgtcfc",
+            "moduleName": "SingularityKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14SingularityKit0A6ParamsC",
+        "mangledName": "$s14SingularityKit0A6ParamsC",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SingularityEnvironMent",
+        "printedName": "SingularityEnvironMent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "test",
+            "printedName": "test",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SingularityKit.SingularityEnvironMent.Type) -> SingularityKit.SingularityEnvironMent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SingularityEnvironMent",
+                    "printedName": "SingularityKit.SingularityEnvironMent",
+                    "usr": "s:14SingularityKit0A11EnvironMentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SingularityKit.SingularityEnvironMent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SingularityEnvironMent",
+                        "printedName": "SingularityKit.SingularityEnvironMent",
+                        "usr": "s:14SingularityKit0A11EnvironMentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14SingularityKit0A11EnvironMentO4testyA2CmF",
+            "mangledName": "$s14SingularityKit0A11EnvironMentO4testyA2CmF",
+            "moduleName": "SingularityKit"
+          },
+          {
+            "kind": "Var",
+            "name": "production",
+            "printedName": "production",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SingularityKit.SingularityEnvironMent.Type) -> SingularityKit.SingularityEnvironMent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SingularityEnvironMent",
+                    "printedName": "SingularityKit.SingularityEnvironMent",
+                    "usr": "s:14SingularityKit0A11EnvironMentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SingularityKit.SingularityEnvironMent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SingularityEnvironMent",
+                        "printedName": "SingularityKit.SingularityEnvironMent",
+                        "usr": "s:14SingularityKit0A11EnvironMentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14SingularityKit0A11EnvironMentO10productionyA2CmF",
+            "mangledName": "$s14SingularityKit0A11EnvironMentO10productionyA2CmF",
+            "moduleName": "SingularityKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SingularityKit.SingularityEnvironMent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SingularityEnvironMent",
+                    "printedName": "SingularityKit.SingularityEnvironMent",
+                    "usr": "s:14SingularityKit0A11EnvironMentO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14SingularityKit0A11EnvironMentO8rawValueACSgSi_tcfc",
+            "mangledName": "$s14SingularityKit0A11EnvironMentO8rawValueACSgSi_tcfc",
+            "moduleName": "SingularityKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SingularityKit0A11EnvironMentO8rawValueSivp",
+            "mangledName": "$s14SingularityKit0A11EnvironMentO8rawValueSivp",
+            "moduleName": "SingularityKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SingularityKit0A11EnvironMentO8rawValueSivg",
+                "mangledName": "$s14SingularityKit0A11EnvironMentO8rawValueSivg",
+                "moduleName": "SingularityKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14SingularityKit0A11EnvironMentO",
+        "mangledName": "$s14SingularityKit0A11EnvironMentO",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Extensions\/UIView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Extensions\/UIView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 240,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Extensions\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 265,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Module\/Login\/Views\/SecondWebViewWindow.swift",
+      "kind": "StringLiteral",
+      "offset": 139,
+      "length": 19,
+      "value": "\"SingularityKit.SecondWebViewWindow\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Module\/Login\/Views\/SingularityLoginVC.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
+      "length": 30,
+      "value": "\"Version\/8.0.2 Safari\/600.2.5\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 13,
+      "value": "\"Singularity\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 6,
+      "value": "\"logo\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 30,
+      "value": "\"Mandatory parameter missing.\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 23,
+      "value": "\"Something went wrong.\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 426,
+      "length": 5,
+      "value": "\"key\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 460,
+      "length": 8,
+      "value": "\"config\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 13,
+      "value": "\"environment\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 553,
+      "length": 17,
+      "value": "\"SingularityUser\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 624,
+      "length": 29,
+      "value": "\"https:\/\/app.s9y-sandbox.gg\/\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 680,
+      "length": 21,
+      "value": "\"https:\/\/app.s9y.gg\/\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Storyboard.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 7,
+      "value": "\"Login\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Storyboard.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 7,
+      "value": "\"Login\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
+      "kind": "FloatLiteral",
+      "offset": 565,
+      "length": 6,
+      "value": "0.6784"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
+      "kind": "FloatLiteral",
+      "offset": 580,
+      "length": 6,
+      "value": "0.5412"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
+      "kind": "FloatLiteral",
+      "offset": 594,
+      "length": 6,
+      "value": "0.7333"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
+      "kind": "FloatLiteral",
+      "offset": 609,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1010,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1034,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1010,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1034,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1010,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1034,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Module\/Login\/ViewModels\/SingularityEventHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 880,
+      "length": 3,
+      "value": "400"
+    }
+  ]
+}
