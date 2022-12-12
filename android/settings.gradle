@@ -1,5 +1,5 @@
 rootProject.name = 'singularityWrapper'
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'
-include ':singularity-react'
- project(':singularity-react').projectDir = new File(rootProject.projectDir, '../../android')
+include ':singularity-react-example'
+ project(':singularity-react-example').projectDir = new File(rootProject.projectDir, '../../android')
