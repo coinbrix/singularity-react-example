@@ -47,7 +47,9 @@
      console.log('Button Tapped');
      var params = this.Params()
      console.log(params);
+     this.setListener()
      SingularityWrapper.startLogin(params);
+    //  SingularityWrapper.getUserInfo()
    }
 
    removeListener=()=>{
